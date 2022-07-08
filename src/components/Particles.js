@@ -133,7 +133,7 @@ function Particle() {
                     },
                     "retina_detect": true,
                     "background": {
-                        // "color": "#efefef",
+                        "color": "#121211",
                         "image": "",
                         "position": "50% 50%",
                         "repeat": "no-repeat",

@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
             />
-            <a href="#" className="btn-main-offer">Contact Me</a>
+            <Link to="/contact" className="btn-main-offer">Contact Me</Link>
         </div>
     </div>
   )

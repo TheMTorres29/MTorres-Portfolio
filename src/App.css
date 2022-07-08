@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,8 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.container {
+  height: 100%;
+  width: 100% !important;
+  padding: 0 !important;
+  overflow: hidden;
 }
 
+h1 {
+  color: var(--primary-white) !important;
+}
 
 /****************************** Font ******************************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
@@ -45,6 +55,7 @@
   --primary-white: #fff;
   --primary-blue: #2f74ad;
   --primary-dark: rgba(255 255 255 0);
+  --primary-grey: #121211;
 }
 
 .body {
@@ -54,7 +65,7 @@
 
 /****************************** NAVBAR ******************************/
 nav {
-  z-index: 2;
+  z-index: 3;
 }
 
 /*--------------- Nav Logo ---------------*/
@@ -99,10 +110,9 @@ nav ul li {
 /****************************** HEADER ******************************/
 .header-wrapper {
   position: relative;
-  background: #121211;
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  height: 93.8vh;
 }
 
 .main-info {
@@ -164,6 +174,14 @@ nav ul li {
     width: 100%;
   }
 }
+
+/******************************  ******************************/
+/*---------------  ---------------*/
+
+
+/******************************  ******************************/
+/*---------------  ---------------*/
+
 
 /******************************  ******************************/
 /*---------------  ---------------*/
