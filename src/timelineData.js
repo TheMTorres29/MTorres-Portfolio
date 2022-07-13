@@ -35,7 +35,7 @@ let timelineData = [
         color: work[1]
     },
     {
-        key: 7,
+        key: 4,
         title: "Chunin Exams",
         location: "Norco College",
         description: "I took a Karate class and won the tournament on form at the end",
@@ -44,7 +44,7 @@ let timelineData = [
         color: ninja[1]
     },
     {
-        key: 4,
+        key: 5,
         title: "Norco Community College",
         location: "Norco, CA",
         description: "Associates of Math & Science",
@@ -53,7 +53,7 @@ let timelineData = [
         color: school[1]
     },
     {
-        key: 5,
+        key: 6,
         title: "GameStop",
         location: "Corona & Norco CA",
         description: "Senior Game Advisor",
@@ -62,7 +62,7 @@ let timelineData = [
         color: work[1]
     },
     {
-        key: 6,
+        key: 7,
         title: "California State University San Bernardino",
         location: "San Bernardino, CA",
         description: "Bachelor of Science in Computer Science w/ Cumulative GPA of 3.135",

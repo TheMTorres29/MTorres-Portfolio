@@ -59,7 +59,7 @@ nav ul li {
 
 .navbar-brand {
   max-width: 29rem;
-  padding: 0.5%;
+  padding: 0.2%;
 }
 
 .navbar-nav > li > a:hover {
@@ -67,6 +67,11 @@ nav ul li {
   border-radius: 0.5rem;
 }
 
+@media only screen and (max-width: 540px) {
+  .navbar-brand {
+    margin-left: 2%;
+  }
+}
 
 /****************************** HEADER ******************************/
 .header-wrapper {
@@ -136,6 +141,91 @@ nav ul li {
   }
 }
 
+
+/****************************** BIO ******************************/
+.bio-container {
+  z-index: 2;
+  display: flex;
+  position: relative;
+}
+
+/*--------------- Profile Pic ---------------*/
+.profile-pic-container {
+  position: relative;
+  display: flex;
+  padding: 1.5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic-container img {
+  position: relative;
+  display: flex;
+}
+
+.profile-pic-img {
+  max-width: 100 auto;
+  width: 100%;
+  max-height: 100;
+  align-self: center;
+}
+
+/*--------------- Profile Bio ---------------*/
+.profile-bio-container {
+  margin: 2%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-white);
+  border-radius: 5px;
+}
+
+.profile-bio-container h3 {
+  margin: 1%;
+  display: none;
+}
+
+.profile-bio-container p {
+  font-weight: 500;
+  margin: 2%;
+}
+
+@media only screen and (max-width: 575px) {
+  .profile-bio-container {
+    margin: 5%;
+  }
+
+  .profile-bio-container h3 {
+    margin: 4%;
+  }
+
+  .profile-bio-container p {
+    font-weight: 400;
+    margin: 5%;
+  }
+
+  .profile-pic-container {
+    margin: 1%;
+  }
+}
+
+@media only screen  and (max-width: 767px) {
+  .bio-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+  }
+
+  .profile-pic-img {
+    max-width: 100 auto;
+    width: 50%;
+    max-height: 100;
+
+  }
+}
+
 /****************************** VERTICAL TIMELINE ******************************/
 .timeline-wrapper {
   position: relative;
@@ -166,6 +256,55 @@ nav ul li {
     color: var(--primary-dark) !important;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .vertical-timeline-element-content {
+    margin: 5%;
+  }
+}
+
+/****************************** SMASH ULTIMATE ******************************/
+/*--------------- Smash Info ---------------*/
+.smash-info-wrapper {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 2rem;
+}
+
+.smash-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.smash-info-container h1 {
+  display: block;
+  font-style: italic;
+}
+
+.smash-pics {
+  display: block;
+  width: 50rem;
+  height: 32rem;
+  background-color: var(--primary-white);
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.smash-records {
+  display: block;
+  width: 70rem;
+  height: 50rem;
+  background-color: var(--primary-blue);
+  border-radius: 10px;
+}
+
+
+/******************************  ******************************/
+/*---------------  ---------------*/
+
 
 /******************************  ******************************/
 /*---------------  ---------------*/

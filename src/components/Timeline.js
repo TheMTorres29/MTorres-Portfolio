@@ -10,8 +10,7 @@ const Timeline = () => timelineData.length > 0 && (
         <div className="timeline-container">
             <VerticalTimeline>
                 {
-                    timelineData.map(element => {
-                        
+                    timelineData.map(element => { 
                         return (
                             <VerticalTimelineElement
                                 key={element.key}
