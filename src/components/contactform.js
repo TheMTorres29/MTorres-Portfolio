@@ -20,7 +20,7 @@ export default function Contactform() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm("service_e9kbsq8nope", "template_7wmp8el", e.target, "ewzkK8die2UPV--dA")
+        emailjs.sendForm("service_e9kbsq8", "template_7wmp8el", e.target, "ewzkK8die2UPV--dA")
         .then((result) => {
             console.log(result.text);
         }, (error) => {
