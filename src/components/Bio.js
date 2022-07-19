@@ -12,8 +12,8 @@ const Bio = () => {
             <h3>Miguel Torres</h3>
             <p>
                 I am an aspiring Web Developer looking for a place where I can get the oportunity to learn and advance my skills
-                in Software and Web Development everyday. Creating applications that people can use everyday is such a cool idea
-                to me and is what drives me to practice and study how to make applications everyday. Anything new learned is a
+                in Software and Web Development every day. Creating applications that people can use every day is such a cool idea
+                to me and is what drives me to practice and study how to make applications every day. Anything new learned is a
                 great acheivement for me.
                 On my free time I enjoy watching YouTube videos on Web Development and playing Super Smash Bros. Ultimate for the 
                 Nintendo Switch. 
