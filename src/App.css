@@ -283,6 +283,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 2%;
 }
 
 .smash-info-container h1 {
@@ -309,11 +310,82 @@ nav ul li {
 .smash-link {
   position: relative;
   display: contents;
+  font-size: 1.3rem;
   color: var(--primary-white);
-  margin: 2%;
-  font-size: x-large;
   font-family: "Roboto Condensed" sans-serif;
   width: 100% auto;
+}
+
+
+/****************************** IMG CAROUSEL ******************************/
+/*--------------- Carousel ---------------*/
+.carousel-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.img-carousel {
+  margin: 2%;
+}
+
+/*--------------- React Elastic Carousel ---------------*/
+.rec-carousel {
+  width: 100%;
+}
+
+.rec.rec-item-wrapper div{
+  height: 100%;
+}
+
+.rec-item-wrapper img {
+  width: 100%;
+}
+
+/*--------------- REC Dot ---------------*/
+button.rec-dot{
+  box-shadow: 0 0 1px 2px var(--primary-white);
+}
+
+button.rec-dot:hover, .rec-dot:active, button.rec-dot:focus:enabled  {
+  box-shadow: 0 0 1px 2px var(--primary-blue);
+}
+
+/*--------------- REC Arrow ---------------*/
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec.rec-dot_active {
+  background-color: var(--primary-blue);
+}
+
+.rec.rec-arrow, .rec.rec-arrow:active  {
+  color: var(--primary-blue);
+  background-color: transparent;
+
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled{
+    background-color: var(--primary-blue);
+}
+
+.rec.rec-arrow-left:active, .rec.rec-arrow-right:active, 
+.rec.rec.arrow-left:focus, .rec.rec.arrow-right:focus {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 540px) {
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  
 }
 
 
@@ -334,84 +406,15 @@ nav ul li {
   font-size: large;
   text-align: center;
   color: var(--primary-blue);
-  display:inline;
+  display: inline;
 }
 
 .g-recaptcha {
   position: relative;
-  display:inline;
+  display: inline;
   z-index: 2;
 }
 
-/****************************** IMG CAROUSEL ******************************/
-/*--------------- Carousel ---------------*/
-.carousel-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  z-index: 2;
-}
-
-.img-carousel {
-  margin: 2%;
-}
-
-/*--------------- React Elastic Carousel ---------------*/
-.rec-carousel {
-  width: 100%;
-  height: 100%;
-  padding: 2%;
-}
-
-.rec-item-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit:contain;
-}
-
-button.rec-dot{
-  box-shadow: 0 0 1px 2px var(--primary-white);
-  background-color: var(--primary-grey);
-}
-
-button.rec-dot:hover, .rec-dot:active, button.rec-dot:focus:enabled  {
-  box-shadow: 0 0 1px 2px var(--primary-blue);
-}
-
-.rec.rec-arrow:disabled {
-  visibility: hidden;
-}
-
-.rec.rec-arrow, .rec.rec-arrow:active  {
-  color: var(--primary-blue);
-  background-color: transparent;
-}
-
-.rec.rec-arrow-left:hover:enabled,
-.rec.rec-arrow-right:hover:enabled{
-    background-color: var(--primary-blue);
-    box-shadow: 0 0 1px 2px var(--primary-grey);
-}
-
-.rec.rec-arrow-left:active, .rec.rec-arrow-right:active, 
-.rec.rec.arrow-left:focus, .rec.rec.arrow-right:focus {
-  background-color: transparent;
-}
-
-@media only screen and (max-width: 540px) {
-  .carousel-wrapper {
-    align-items: center;
-    margin: 0%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .rec.rec-carousel {
-    width: 100%;
-
-  }
-}
 
 /******************************  ******************************/
 /*---------------  ---------------*/

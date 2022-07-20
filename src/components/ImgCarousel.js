@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Carousel, { consts } from "react-elastic-carousel";
+import Carousel from "react-elastic-carousel";
 import ImgItem from "./ImgItem";
 import Image1 from "../imgs/img-glssetup.jpg";
 import Image2 from "../imgs/img-glsgame.jpg";
@@ -9,7 +9,7 @@ import Image5 from "../imgs/img-glsstream.jpg";
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+    { width: 650, itemsToShow: 2, itemsToScroll: 2 },
     { width: 1200, itemsToShow: 3 },
 ];
 
@@ -24,11 +24,10 @@ function ImgCarousel() {
 
     return (
         <div className="carousel-wrapper">
-            <Carousel breakPoints={breakPoints} className="img-carousel"
-            imgAnimations={imgAnimations}
-            >
+            <Carousel breakPoints={breakPoints} className="img-carousel" imgAnimations={imgAnimations}
+            easing="cubic-bezier(1,.5,.5,1.25)" tiltEasing="cubic-bezier(2.110, 2, 2.000, 2.210)">
                 {items.map((item) => (
-                    <ImgItem key={item}><img src={item}/></ImgItem>
+                    <ImgItem key={item}><img src={item} alt="smash-img" /></ImgItem>
                 ))}
             </Carousel>
         </div>
