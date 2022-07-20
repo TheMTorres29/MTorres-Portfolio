@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import Particles from "../components/Particles";
 import ContactMe from "../components/contactform";
 
