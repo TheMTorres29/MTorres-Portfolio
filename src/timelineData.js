@@ -37,7 +37,7 @@ let timelineData = [
     {
         key: 4,
         title: "Chunin Exams",
-        location: "Norco College",
+        location: "Norco College West End Quad",
         description: "I took a Karate class and won the tournament on form at the end",
         date: "2018",
         icon: ninja[0],
@@ -55,7 +55,7 @@ let timelineData = [
     {
         key: 6,
         title: "GameStop",
-        location: "Corona & Norco CA",
+        location: "Corona & Norco, CA",
         description: "Senior Game Advisor",
         date: "2020 - 2021",
         icon: work[0],
