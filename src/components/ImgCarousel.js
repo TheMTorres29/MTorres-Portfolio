@@ -10,7 +10,7 @@ import Image5 from "../imgs/img-glsstream.jpg";
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 650, itemsToShow: 2, itemsToScroll: 2 },
-    { width: 1200, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 3, itemsToScroll: 2 },
 ];
 
 const imgAnimations = [

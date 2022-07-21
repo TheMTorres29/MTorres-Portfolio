@@ -1,14 +1,11 @@
 import React from "react";
-import logo from "../imgs/miguel.png";
-import gamertag from "../imgs/mtorres.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import logo from "../imgs/miguel.png";
 
 
 const Navbar = () => {
-    
-  
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container">
