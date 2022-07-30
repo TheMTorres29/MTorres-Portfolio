@@ -7,15 +7,21 @@ const SmashInfo = () => {
         <div className="smash-records">
           <h1 className="smash-match-title">Smash Records / Matches</h1>
 
-            <div className="smash-link-container">
-              <h3>GameLab-Smash Jabroni Jamboree: Piston (Roy) Vs MTorres (Banjo)</h3>
+            <div className="smash-video-container">
+            <h3>GameLab-Smash Jabroni Jamboree: Piston (Roy) Vs MTorres (Banjo)</h3>
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xVsCC1g1jQA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
             </div>
 
             <div className="smash-video-container">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/xVsCC1g1jQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3>It's Time to Duel #18 Yan (Jigglypuff) vs MTorres29 (Banjo)</h3>
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8fVxU3cHGdw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
             </div>
 
-            <br></br><br></br><h3>more coming soon</h3>
+            <h3 className="smash-coming-soon">more coming soon</h3>
         </div>
       </div>
     </div>

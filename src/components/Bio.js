@@ -22,7 +22,7 @@ const Bio = () => {
                 I have been going to local tournaments lately to help improve my skills in this game as well. I 
                 just need to throw myself into the pool and learn to swim, and I am doing just that by competing with players that 
                 are better than me and learning from each experience I get. Each loss has something positive that can be taken 
-                away from it. And I try to apply this to my Software Engineering/Web Development Journey! (this was quick imma fix it later)
+                away from it. And I try to apply this to my Software Engineering/Web Development Journey! 
             </p>
         </div>
     </div>
