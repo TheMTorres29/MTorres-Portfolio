@@ -9,7 +9,7 @@ function Smash() {
   return (
     <>
       <Particles/>
-      {/* <GuhHuhBtn/> */}
+      <GuhHuhBtn/>
       <SmashBanjo/>
       <ImgCarousel/>
       <SmashInfo/>
