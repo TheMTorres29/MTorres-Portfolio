@@ -344,7 +344,7 @@ nav ul li {
 }
 
 .smash-match-title {
-  margin: 1%;
+  padding-top: 2.5rem;
   width: auto;
   color: var(--primary-white);
   -webkit-text-stroke: .05rem var(--primary-white);
@@ -407,6 +407,7 @@ nav ul li {
 /****************************** IMG CAROUSEL ******************************/
 /*--------------- Carousel ---------------*/
 .carousel-wrapper {
+  margin: 2rem;
   max-width: 100%;
   max-height: 100%;
   position: relative;
@@ -496,9 +497,54 @@ button.rec-dot:hover, .rec-dot:active, button.rec-dot:focus:enabled  {
 }
 
 
-/******************************  ******************************/
-/*---------------  ---------------*/
+/****************************** PORTFOLIO ******************************/
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
 
+.portfolio-container h1 {
+  text-align: center;
+  align-self: center;
+  padding: 4rem;
+}
+
+/*--------------- Cards ---------------*/
+.card-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.card-box {
+  max-width: 18rem;
+  margin: 1.5rem;
+  display: flex;
+}
+
+/*--------------- Card Contents ---------------*/
+.card-image {
+  padding: 0.5rem;
+  object-fit: fill;
+
+}
+
+.card-text {
+  padding-bottom: 0.5rem;
+}
+
+.card-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+}
 
 /******************************  ******************************/
 /*---------------  ---------------*/
