@@ -69,6 +69,15 @@ let timelineData = [
         date: "2018 - 2022",
         icon: school[0],
         color: school[1]
+    },
+    {
+        key: 8,
+        title: "Zumiez Warehouse",
+        location: "Corona, CA",
+        description: "DTG Operator",
+        date: "2022 - Present",
+        icon: work[0],
+        color: work[1]
     }
 ]
 
