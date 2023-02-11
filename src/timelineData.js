@@ -74,7 +74,7 @@ let timelineData = [
         key: 8,
         title: "Zumiez Warehouse",
         location: "Corona, CA",
-        description: "DTG Operator",
+        description: "DTG Operator/Technician",
         date: "2022 - Present",
         icon: work[0],
         color: work[1]
