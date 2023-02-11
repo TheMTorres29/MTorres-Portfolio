@@ -72,7 +72,7 @@ let timelineData = [
     },
     {
         key: 8,
-        title: "Zumiez Warehouse",
+        title: "Zumiez",
         location: "Corona, CA",
         description: "DTG Operator/Technician",
         date: "2022 - Present",
